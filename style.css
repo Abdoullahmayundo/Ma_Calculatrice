@@ -32,7 +32,7 @@ body {
   grid-column: span 4;
   user-select: none;
   overflow: none;
-  width: 100%;
+
   text-align: end;
   color: #5166d6;
   height: 100px;
@@ -43,6 +43,7 @@ body {
   padding: 0 20px;
   font-size: 2em;
   font-weight: 500;
+  overflow-x: auto;
 }
 
 .calculator .buttons span {
